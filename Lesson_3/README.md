@@ -2,7 +2,8 @@
 <hr>
  Selectors practice 
 <hr>
- 1) Using Siblings Selectors:
+
+  1) Using Siblings Selectors:
 https://oksanarutska.github.io/mate-academy-lessons/Lesson_3/siblings-selectors-1/siblings-selectors-1.html
 
  2) Using Selector :not and selectors by attributes:
