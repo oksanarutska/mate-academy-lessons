@@ -1,0 +1,30 @@
+:root{
+    --color_1: #231A31;
+    --color_2: #E42F45;
+    --color_3: #8AB2FF;
+    --color_4: #F1C40F;
+    --color_5: #B7569A;
+    --color_6: #E4F091;
+    --color_7: #085F63;
+    --color_8: #887575;
+}
+a[href="about"]{
+    background-color: var(--color_6) ;
+}
+a[href$=".html"]{
+    background-color: var( --color_7);
+}
+p:not([class]){
+    background-color: var(--color_3);
+}
+[data-href]
+{
+    color: var(--color_4 );
+}
+div > a:first-child{
+    background-color: var( --color_5);
+}
+[data-href~="highlight_me"]{
+
+    text-decoration: underline;
+}

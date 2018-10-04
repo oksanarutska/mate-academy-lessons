@@ -1,0 +1,29 @@
+.root{
+    --color_1: #231A31;
+    --color_2: #E42F45;
+    --color_3: #8AB2FF;
+    --color_4: #F1C40F;
+    --color_5: #B7569A;
+    --color_6: #E4F091;
+    --color_7: #085F63;
+    --color_8: #887575;
+}
+a.www, a.www:visited {color:#E4F091 ; }
+
+a:not([class ="www"]):active
+{ color: #085F63 ;
+
+}
+ a:hover{
+    background-color: #231A31 ;
+}  input[type=checkbox]:checked + label
+{
+    text-decoration: underline;
+}
+input[type=text]:focus{
+    border: 1px solid blue
+}
+input{
+
+    background-color: #efefef ;
+}
