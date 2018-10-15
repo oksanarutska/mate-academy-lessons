@@ -1,8 +1,7 @@
 /*Header*/
 
 .img_forest {
-    background: url(photo/forest_1.png);
-    background-repeat: no-repeat;
+    background: url(photo/forest_1.png) no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -14,7 +13,9 @@
     position: relative;
     z-index: 1;
 }
-
+.link_header{
+    margin-right: 0
+}
 .img_forest::after {
     content: '';
     display: block;
@@ -49,10 +50,7 @@
 }
 
 .good_day {
-    margin-top: 79px;
-    margin-bottom: 43px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 79px auto 43px;
     display: table;
     width: 482px;
     height: 39px;
@@ -147,10 +145,7 @@
 }
 
 .user {
-    margin-top: 63px;
-    margin-bottom: 32px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 63px auto 32px;
     display: table;
     width: 43px;
     height: 31px;
