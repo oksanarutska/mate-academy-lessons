@@ -495,7 +495,10 @@ width: 264px;
 }
 .div_f_footer{
     background-color: rgba(241, 233, 233, 0.24);
-    height: 45px ;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .img_el{
     margin-right: 266px ;
@@ -507,7 +510,9 @@ width: 264px;
     margin-right: 19px ;
 }
 .div_head_foot{
-    margin-top: 24px
+
+    padding-top: 24px;
+    padding-bottom: 21px;
 }
 .hr_footer{
     background-color:white
