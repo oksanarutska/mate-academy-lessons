@@ -39,7 +39,7 @@
 }
 
 .link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: rgba(255, 255, 255, 1);
     margin-right: 30px;
     text-decoration: none;
@@ -66,7 +66,7 @@
 
 .text_theme {
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 700;
@@ -82,7 +82,7 @@
     height: 48px;
     border: 0px;
     border-radius: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 15px;
     font-weight: 700;
@@ -109,7 +109,7 @@
     height: 35px;
     border-radius: 20px;
     border: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
@@ -159,7 +159,7 @@
     height: 39px; width: 42px
 }
 .description_img {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 16px;
     font-weight: 700;
@@ -180,7 +180,7 @@
 }
 
 .lorem_hob {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -223,7 +223,7 @@
     margin-bottom: 26px;
 }
 .h_template {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -232,7 +232,7 @@
 }
 
 .content_temp {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -246,7 +246,7 @@
     height: 35px;
     border-radius: 20px;
     border: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
@@ -283,7 +283,7 @@
 }
 
 .fluff_tem {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -314,7 +314,7 @@
 }
 
 .flu_lor {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -338,7 +338,7 @@
 }
 
 .check {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #50c3af;
     font-size: 14px;
     font-weight: 400;
@@ -370,7 +370,7 @@
 }
 
 .fly_text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -446,7 +446,7 @@
     margin-right: 60px;
 }
 .text_star {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: rgba(255, 255, 255, 0.84);
     font-size: 15px;
     font-weight: 700;
