@@ -6,15 +6,13 @@
 
 .header {
 
-    height: 100vh;
+    height: 891px;
     width: 100%;
     background: url("photo/lllll.png") no-repeat;
     background-size: cover;
     position: relative;
-}
-
-.flex_header {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .navbar {
@@ -144,11 +142,14 @@
     display: flex;
     padding-top: 111px;
     margin-bottom: 119px;
+    flex: 80%;
+    flex-wrap: wrap;
 
 }
 
 .features_container {
-    margin-right: 80px;
+   flex: 3 1 0;
+    
 }
 
 .features_container_4 {
@@ -458,7 +459,7 @@ display: flex;
 .color_footer{
     background: #000000;
 }
-}
+
 .content_footer{
     height: 200px;
 }
