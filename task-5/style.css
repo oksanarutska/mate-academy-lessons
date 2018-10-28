@@ -826,9 +826,11 @@
         background-size: cover;
         height: 320px;
     }
+
     .content {
         bottom: 25px;
     }
+
     .navbar {
         display: flex;
         justify-content: center;
@@ -839,13 +841,21 @@
         height: 10px;
     }
 
+    .text_sky {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .position_fac {
+        position: absolute;
+        top: 396px;
+        text-align: right;
+    }
+
+    .content_left_footer {
+        margin-right: 0px;
+    }
 }
-
-
-
-
-
-
 @media only screen and (max-width: 539px) {
 
     .header {
