@@ -818,10 +818,12 @@
         top: 37px;
         right: 3px;
     }
+
     .little_mango {
         margin-top: -17px;
     }
 }
+
 @media only screen and (min-width: 540px) and (max-width: 750px) {
     .header {
         background: url("photo/header_img.png") no-repeat;
@@ -857,13 +859,16 @@
     .content_left_footer {
         margin-right: 0px;
     }
-    .content_sea_right{
+
+    .content_sea_right {
         display: none;
     }
+
     .little_mango {
         margin-top: -17px;
     }
 }
+
 @media only screen and (max-width: 539px) {
 
     .header {
