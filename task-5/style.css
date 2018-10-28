@@ -843,7 +843,7 @@
 
     .text_sky {
         text-align: center;
-        margin: 0 auto;
+        top: 70px
     }
 
     .position_fac {
