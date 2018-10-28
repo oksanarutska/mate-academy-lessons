@@ -94,35 +94,26 @@
     font-family: 'Nunito', sans-serif;
     color: #ffffff;
     font-size: 40px;
-    line-height: 1.5;
+    line-height: 0.5;
     font-weight: normal;
 }
 
 .green_slash {
     color: #a2ca28;
-    font-size: 40px;
-    line-height: 70px;
-    text-align: left;
-    transform: scaleY(1.0005);
 }
 
 .little_text {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 0.5;
     text-align: right;
     font-weight: normal;
 }
 
 .red_slash {
-    font-family: 'Open Sans', sans-serif;
     color: #fd634e;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 70px;
-    text-align: left;
-    transform: scaleY(1.0005);
+
 }
 
 .pink_line {
@@ -583,7 +574,7 @@
 }
 
 .content_footer {
-    height: 200px;
+    height: 300px;
 }
 
 .content_left_footer {
@@ -672,8 +663,9 @@
 @media only screen and (max-width: 1024px) {
 
     .header {
-        background: url("photo/img_head - Copy.png") no-repeat;
-        height: 612px;
+        background: url("photo/header_img.png") no-repeat;
+        background-size: cover;
+        height: 485px;
     }
 
     .navbar {
@@ -828,12 +820,38 @@
     }
 
 }
+@media only screen and (min-width: 540px) and (max-width: 750px) {
+    .header {
+        background: url("photo/header_img.png") no-repeat;
+        background-size: cover;
+        height: 320px;
+    }
+    .content {
+        bottom: 25px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        padding-right: 33px;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        height: 10px;
+    }
 
-@media only screen and (max-width: 600px) {
+}
+
+
+
+
+
+
+@media only screen and (max-width: 539px) {
 
     .header {
-        background: url("photo/smart_header.png") no-repeat;
-        height: 305px;
+        background: url("photo/header_img.png") no-repeat;
+        background-size: cover;
+        height: 210px;
     }
 
     .header:after {
@@ -847,6 +865,7 @@
 
     .logo {
         padding-left: 0;
+        padding-top: 15px;
     }
 
     .strawberry {
@@ -869,7 +888,8 @@
     .navbar {
         padding-top: 1px;
         display: flex;
-        justify-content: end
+        justify-content: end;
+        margin-bottom: 60px;
 
     }
 
@@ -967,12 +987,13 @@
     }
 
     .position_fac {
-        top: 517px;
+        top: 450px;
         left: 0;
     }
 
     .content_text_left {
         padding-bottom: 17px;
+        margin-bottom: 20px;
     }
 
     .posit_text {
