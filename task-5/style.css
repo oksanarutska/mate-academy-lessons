@@ -466,12 +466,13 @@
 }
 
 .little_mango {
-    margin-left: 34px;
+    top: 33px;
+    right: 35px;
 }
 
 .strawberry {
-    margin-right: 47px;
-    margin-top: 10px;
+    margin-right: 5px;
+    margin-top: -14px;
 }
 
 /*MAN AND SKY*/
@@ -760,7 +761,9 @@ position: absolute;
         height: 240px;
         padding-right: 10px;
     }
-
+.features_content{
+    text-align: center;
+}
 
     .features_link {
         right: 32%;
@@ -803,7 +806,7 @@ position: absolute;
     }
 .gray_content{
     padding-right: 10px;
-    padding-left: 10px;
+
 }
 
 
@@ -865,7 +868,7 @@ position: absolute;
 
     .gray_man {
         top: 37px;
-        right: 3px;
+        right: 20px;
     }
 
     .little_mango {
@@ -938,17 +941,21 @@ position: absolute;
         padding-left: 0;
         padding-top: 15px;
     }
+    .gray_man{
+        top: 18px;
+        right: 45%;
+    }
 
     .strawberry {
         top: 0;
-        margin-top: 40px;
-        margin-right: 20px;
+        margin-top: 20px;
+        margin-right: 0px;
     }
 
     .little_mango {
         top: 0;
-        margin-top: 30px;
-        margin-right: 20px;
+        margin-top: 16px;
+        margin-right: 4px;
     }
 
     .header_content {
@@ -1026,6 +1033,7 @@ position: absolute;
 
     .wrapper_content_img {
         flex-direction: column;
+        width: 100%;
 
     }
 
