@@ -281,10 +281,11 @@
 .gray_content {
     font-family: 'Open Sans', sans-serif;
     color: #656e74;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 26px;
-    margin-top: 25px;
+    line-height: 22px;
+    margin-top: 15px;
+
 }
 
 .green_more {
@@ -426,6 +427,7 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 21px;
+    padding-right: 10px;
 }
 
 .posit_sum_text {
@@ -498,6 +500,8 @@
     font-weight: 400;
     line-height: 40px;
     margin-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .content_header_sky {
@@ -507,6 +511,8 @@
     font-weight: 400;
     line-height: 23px;
     text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .text_sky {
@@ -586,6 +592,7 @@
     font-weight: 400;
     line-height: 12px;
     margin-bottom: 29px;
+
 }
 
 .content_text_left {
@@ -595,6 +602,7 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    padding-right: 10px;
 }
 
 .wrapper_footer {
@@ -750,7 +758,7 @@ position: absolute;
         flex: 40%;
         text-align: center;
         height: 240px;
-
+        padding-right: 10px;
     }
 
     .features_link_1 {
@@ -813,7 +821,10 @@ position: absolute;
     .child_mango {
         flex: 8 1 0;
     }
-
+.gray_content{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 
     .content_left_footer {
@@ -859,6 +870,7 @@ position: absolute;
         margin-top: 55px;
         margin-left: 0;
         text-align: center;
+        padding-left: 10px;
     }
 
     .posit_text {
