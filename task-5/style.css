@@ -837,12 +837,14 @@ position: absolute;
         width: 305px;
         height: 49px;
         padding-left: 22px;
+        margin-bottom: 3px;
     }
 
     .email_space {
         width: 305px;
         height: 49px;
         padding-left: 22px;
+        margin-bottom: 3px;
     }
 
     .content_text_left {
