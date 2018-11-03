@@ -486,7 +486,7 @@
 
 .man_sky {
     width: 100%;
-    height: 100vh;
+    height: 724px;
     object-fit: cover;
     position: relative;
 }
@@ -519,14 +519,14 @@
     position: absolute;
     bottom: -100px;
     left: 0px;
-    border: 105px solid transparent;
-    border-left: 200vh solid #000000;
+    border: 120px solid transparent;
+    border-left: 1000px solid #000000;
 
 }
 
 .wrapper_sky_copy {
     position: absolute;
-    height: 100vh;
+    height: 724px;
     display: flex;
     width: 100%;
 }
@@ -537,13 +537,13 @@
     bottom: -100px;
     right: 0;
     z-index: 1;
-    border: 110px solid transparent;
-    border-right: 200vh solid black;
+    border: 120px solid transparent;
+    border-right: 1000px solid #000000;
 }
 
 .wrapper_sky_copy_2 {
     position: absolute;
-    height: 100vh;
+    height: 724px;
     display: flex;
     width: 100%;
 }
