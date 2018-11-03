@@ -638,6 +638,7 @@ position: absolute;
     display: inline-block;
     background-color:#2e3192;
     position: relative;
+    border: 0px;
 }
 .social_cir_f:hover{
     opacity: 0.5;
@@ -649,6 +650,7 @@ position: absolute;
     display: inline-block;
     background-color:#00aeef;
     position: relative;
+    border: 0px;
 }
 .social_cir_t:hover{
     opacity: 0.5;
@@ -660,7 +662,7 @@ position: absolute;
     display: inline-block;
     background-color:#ed3123;
     position: relative;
-
+    border: 0px;
 }
 .social_cir_y:hover{
     opacity: 0.5;
@@ -669,6 +671,9 @@ position: absolute;
 
 .space_social:hover {
     cursor: pointer;
+}
+.social_form{
+    display: inline;
 }
 
 .name_space {
