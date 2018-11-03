@@ -144,7 +144,7 @@
 .features_header_img{
     height: 47px;
     width: 45px;
-  
+
 }
 
 .features_container {
@@ -607,9 +607,62 @@
     right: 0;
 }
 
-.space_social {
-    margin-right: 13px;
+.space_social_f {
+position: absolute;
+    height: 19px;
+    width: 19px;
+    left: 33%;
+    top: 30%;
 }
+.space_social_y{
+    height: 21px;
+    width: 15px;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+}
+.space_social_l{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+}
+.social_cir_f{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#2e3192;
+    position: relative;
+}
+.social_cir_f:hover{
+    opacity: 0.5;
+}
+.social_cir_t{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#00aeef;
+    position: relative;
+}
+.social_cir_t:hover{
+    opacity: 0.5;
+}
+.social_cir_y{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#ed3123;
+    position: relative;
+
+}
+.social_cir_y:hover{
+    opacity: 0.5;
+}
+
 
 .space_social:hover {
     cursor: pointer;
