@@ -142,9 +142,12 @@
 
 }
 .features_header_img{
-    height: 47px;
-    width: 45px;
+    height: 40px;
+    width: 42px;
 
+}
+.features_cloud{
+    width: 49px;
 }
 
 .features_container {
