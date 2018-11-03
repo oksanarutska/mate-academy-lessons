@@ -789,7 +789,7 @@ position: absolute;
     }
 
     .child_text {
-        flex: 40%;
+        flex: 8 1 0;
         height: 395px;
     }
 
@@ -803,6 +803,7 @@ position: absolute;
 
     .white_green_box {
         height: 395px;
+        flex: 8 1 0;
     }
 
     .img_girl {
@@ -810,12 +811,10 @@ position: absolute;
     }
 
     .child_mango {
-        flex: 40%;
+        flex: 8 1 0;
     }
 
-    .child_text_white {
-        flex: 50%;
-    }
+
 
     .content_left_footer {
         flex: 92%;
