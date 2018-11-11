@@ -1,0 +1,25 @@
+@import "../mixins";
+
+.container-header{
+  width: 432px;
+  @include box-shadows(1);
+  margin-bottom: 20px;
+
+  span{
+    display: inline-block;
+    width: 390px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    padding: 26px;
+  }
+  a{
+    display: inline-block;
+    width: 52px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    padding: 16px 16px 16px 32px;
+  }
+}

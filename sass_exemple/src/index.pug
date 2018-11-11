@@ -1,0 +1,50 @@
+include  components/button/button
+
+doctype html
+html(lang='en')
+   head
+     meta(charset='UTF-8')
+     title Title
+     link(rel='stylesheet', href='./css/all.css')
+   body
+     img(src='/images/logo.svg', alt='Logo')
+     h1 Hello Mate Academ11111
+
+     +button(
+     {
+         label: 'button1'
+     }
+     )
+     +button(
+     {
+         label: 'button2'
+     }
+     )
+
+     div.container-header
+         span Cards are a convenient means of displaying content composed of different types of objects.
+         a Hurray!
+     div.card
+       div.card-header
+         span Card with image header
+       div.card-body
+         span Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
+       div.card-footer
+         button MORE INFO...
+         button.right.primary ACCEPT
+         button.right DECLINE
+     div.card
+       div.card-header.card-image-header
+         span Card with image header
+       div.card-body
+         span Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
+       div.card-footer
+         button MORE INFO...
+         button.right.primary ACCEPT
+         button.right DECLINE
+     div.mixin-demo
+      div.div1
+      div.div2
+      div.div3
+      div.div4
+      div.div5

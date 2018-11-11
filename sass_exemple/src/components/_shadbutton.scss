@@ -1,0 +1,37 @@
+@import "../mixins";
+
+.mixin-demo {
+  div {
+    @include desktop {
+      width: 400px;
+      height: 400px;
+    }
+    @include tablet {
+      width: 200px;
+      height: 200px;
+    }
+    @include mobile {
+      width: 100px;
+      height: 100px;
+    }
+    background-color: yellow;
+    display: block;
+    margin: 30px;
+  }
+}
+
+.div1 {
+  @include box-shadows(1);
+}
+.div2 {
+  @include box-shadows(2);
+}
+.div3 {
+  @include box-shadows(3);
+}
+.div4 {
+  @include box-shadows(4);
+}
+.div5 {
+  @include box-shadows(5);
+}
