@@ -1,0 +1,16 @@
+include  ../components/button/button
+
+
+mixin card(title, body, button1, button2, button3)
+    .card
+        .card-header
+            h1=title
+        .card-body
+            p=body
+        .card-footer
+            +button(button1)
+            div
+                +button(button2)
+                +button(button3)
+
+

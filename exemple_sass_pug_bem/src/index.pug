@@ -1,0 +1,26 @@
+include  components/button/button
+include card/card
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='UTF-8')
+        title Title
+        link(href='./fonts/roboto.scss', rel='stylesheet')
+        link(rel='stylesheet', href='./css/all.css')
+    body
+
+        +card(
+        "Card headline title",
+        "Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.",
+        {label: 'MORE INFO…', class: 'button'},
+        {label: 'DECLINE', class: 'button'},
+        {label: 'ACCEPT', class: 'button button_color'})
+
+
+        .mixin-demo
+            div.div1
+            div.div2
+            div.div3
+            div.div4
+            div.div5
