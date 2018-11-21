@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper_header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: url("https://avatars.mds.yandex.net/get-pdb/963318/3970e159-87ea-498d-86eb-8556ccfd5bfd/orig") no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+
+
+}
+
+.wrapper_logo {
+  display: flex;
+    flex: 0 0 55%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.img_logo{
+    position: relative;
+    top: 0;
+    height: 130px;
+}
+.text_logo{
+    color: white;
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.15em;
+
+}
+.wrapper_navigation{
+    display: flex;
+    flex: 0 0 45%;
+    align-items: center;
+    margin-top: 50px;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a:hover{
+    color: aqua;
+    transition: 1.5s;
+}
+.navbar li{
+    margin-right: 20px;
+}
+.button_login{
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 10px 70px;
+    background-color: white;
+    }
+
+.button_login:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.text_title{
+    font-size: 65px;
+}
+.text_title_under{
+    font-size: 15px;
+}
+.wrapper_header_content{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 34%;
+    margin-left: 21%;
+}
+
+.body_features{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.text_body{
+    color: #00C8DC;
+    line-height: 1em;
+    font-size: 70px;
+}
+.text_marg_top{
+    margin-top: 10%;
+   }
+.text_marg_left{
+    margin-left: 15%;
+}
+
+.wrapper_features{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.wrapper_planer{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33%;
+    align-items: center;
+
+}
+.img_features{
+    width: 60%;
+}
+.title_features{
+    color:#00C8DC;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.blue_line{
+    border-top: 4px solid #00C8DC;
+    width: 65%;
+    margin-bottom: 5px;
+    margin-top: 16%;
+
+}
+.content_features{
+    color: aquamarine;
+    line-height: 1.3em;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+title_marg{
+    margin-bottom: 10%;
+}
+
+
