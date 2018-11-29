@@ -1,0 +1,12 @@
+include  ../components/button/button
+
+
+mixin card(title, body, button1, button2)
+    div.card
+        div.card-header
+            span(class=title.className)=title.text
+        div.card-body
+            span=body
+        div.card-footer
+            +button(button1)
+            +button(button2)

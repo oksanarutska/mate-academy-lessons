@@ -43,7 +43,7 @@ gulp.task('serve', function () {
         return runSequence('processFonts', 'reloadBrowser');
     });
 
-    gulp.watch(stylesBlob, function () {
+    gulp.watch('src/**/*.scss', function () {
         return runSequence('processStyles', 'reloadBrowser');
     });
 });

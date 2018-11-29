@@ -1,0 +1,15 @@
+{
+  "name": "gulp",
+  "version": "2.0.0",
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp-clean": "^0.4.0"
+  }
+}

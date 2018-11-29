@@ -1,0 +1,55 @@
+@import "../mixins";
+
+.card {
+  width: 432px;
+  margin-bottom: 20px;
+  @include box-shadows(1);
+
+  &-header {
+    width: 432px;
+
+    span {
+      display: block;
+      padding: 18px;
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  &-image-header {
+    position: relative;
+    height: 180px;
+    background-color: #03a9f4;
+    span {
+      color: white;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      padding: 0;
+    }
+  }
+
+  &-body {
+    width: 390px;
+    height: 95px;
+    padding: 18px;
+  }
+
+  &-footer {
+    border-top: 1px solid gray;
+    padding: 18px;
+    button {
+      background: white;
+      border: 0;
+      padding: 5px;
+    }
+
+    button.primary {
+      color: #328afb;
+    }
+
+    button.right {
+      float: right;
+    }
+  }
+}

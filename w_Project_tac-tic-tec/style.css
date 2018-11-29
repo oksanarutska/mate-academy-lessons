@@ -9,9 +9,10 @@
     flex-wrap: wrap;
     width: 100%;
     height: 100vh;
-    background: url("https://avatars.mds.yandex.net/get-pdb/963318/3970e159-87ea-498d-86eb-8556ccfd5bfd/orig") no-repeat;
+    background: url("img/header_background.gif") no-repeat;
     background-size: cover;
     align-items: flex-start;
+
 
 
 }
@@ -67,7 +68,7 @@
     }
 
 .button_login:hover{
-    background-color: black;
+    background:none;
     border: 1px solid white;
     color: white;
 }
@@ -105,19 +106,22 @@
 
 .wrapper_features{
     display: flex;
-    margin-left: 13%;
-    margin-right: 13%;
+    flex: 0 0 80%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
 
 
 }
 .wrapper_planer{
+    height: 450px;
     display: flex;
     flex-direction: column;
-    flex: 0 0 33%;
+    flex: 0 0 25%;
     align-items: center;
+    position: relative;
 
 }
 .img_features{
@@ -125,28 +129,181 @@
 }
 .title_features{
     color:#00C8DC;
-    font-size: 32px;
+    font-size: 33px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 
 }
+.footer_features{
+    position: absolute;
+    bottom: 0;
+    text-align: -webkit-center;
+}
 .blue_line{
     border-top: 4px solid #00C8DC;
     width: 65%;
-    margin-bottom: 5px;
-    margin-top: 16%;
 
 }
+
 .content_features{
-    color: aquamarine;
+    color: #7cc7ff;
     line-height: 1.3em;
     font-size: 15px;
     padding-top: 15px;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 50px;
 }
-title_marg{
-    margin-bottom: 10%;
+
+.add_features{
+    bottom: 20px;
+}
+.body_mission{
+    background-color: black;
+}
+.text_mission{
+    color:white;
+}
+.wrapper_mission{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 111px;
+    padding-bottom: 119px;
+    flex: 80%;
+    margin: 0 auto;
+
+}
+.wrapper_mission_img{
+    height: 100px;
+    display: flex;
+    flex: 0 0 30%;
+
+}
+.mission_title{
+    font-weight:normal;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+
+}
+.img_mission_border{
+    stroke-width:3;
+    stroke:#FFFFFF;
+    stroke-opacity:1;
+    fill:none;
+    width: 218px;height:247px;
+    transform: rotate(30.4899deg);
+    position: relative;
+}
+.hexagon{
+    stroke-width: 3px;
+
+}
+
+.icon_mission{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 90px;
+}
+.icon_mission_position{
+    margin-left: 5.5%;
+    margin-top: 7%;
+}
+.wrapper_mission_position{
+    margin-top: -70px;
+}
+.wrapper_mission_text{
+    margin-top: 15px;
+    display: flex;
+    flex: 0 0 35%;
+    flex-direction: column;
+}
+.content_mission{
+    color: white;
+    line-height: 1.3em;
+    font-size: 14px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper_connect{
+    background-color: rgb(51, 82, 33);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.wrapper_contact{
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 111px;
+    padding-bottom: 119px;
+
+}
+.title_contact{
+color:#68B04D;
+    margin-bottom: 20px;
+}
+.email_contact{
+    cursor: pointer;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 0.03em;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.line_contact{
+    background-color:#68B04D;
+    width: 50px;
+    height: 3px;
+    border: none;
+    margin-bottom: 20px;
+}
+.wrapper_form{
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 111px;
+    padding-bottom: 119px;
+}
+.form_name{
+    font-family: 'Muli', sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+.form_message{
+    width: 81%;
+}
+.form_button{
+    width: 81%;
+    color: #FFFFFF;
+    border: black;
+    padding: 15px 0 15px 0;
+    outline: none;
+    cursor: pointer;
+    background: black center;
+    transition: background 0.8s;
+}
+.form_button:hover{
+    background: rgba(0, 0, 0, 0.73) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.73) 1%) center/15000%;
+}
+.form_button:active{
+    background-color: rgba(0, 0, 0, 0.36);
+    background-size: 100%;
+    transition: background 0s;
+}
+.form_comment{
+    height: 40%;
 }
 
 

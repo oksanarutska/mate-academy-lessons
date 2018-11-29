@@ -1,0 +1,30 @@
+@import "_mixins";
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  display: inline-block;
+  background-color: white;
+
+}
+
+.div1 {
+  @include box-shadows(1)
+}
+
+.div2 {
+  @include box-shadows(2)
+}
+
+.div3 {
+  @include box-shadows(3)
+}
+
+.div4 {
+  @include box-shadows(4)
+}
+
+.div5 {
+  @include box-shadows(5)
+}
