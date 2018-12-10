@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da1034a-551a-4241-981a-af842e784c35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../First library/src/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/exemples/button.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/scss/_common_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/scss/_mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../First library/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemple_sass_pug_bem/src/all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../exemple_sass_pug_bem/src/all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exemple_sass_pug_bem/src/mixins/_buttonF.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../exemple_sass_pug_bem/src/mixins/_buttonF.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/dist/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/dist/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/components/_shadbutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/components/_shadbutton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/components/button/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/components/button/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/components/button/button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/components/button/button.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sass_exemple/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/../sass_exemple/src/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -39,16 +19,19 @@
     <session id="-909111946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="1" />
+          <entry key="css" value="5" />
+          <entry key="html" value="2" />
           <entry key="pug" value="2" />
           <entry key="scss" value="3" />
           <entry key="svg" value="1" />
@@ -56,8 +39,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="2" />
           <entry key="Jade" value="2" />
           <entry key="SCSS" value="3" />
           <entry key="SVG" value="1" />
@@ -65,32 +48,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="633" />
-          <entry key="html" value="689" />
+          <entry key="css" value="1291" />
+          <entry key="html" value="1164" />
           <entry key="svg" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="633" />
-          <entry key="HTML" value="689" />
+          <entry key="CSS" value="1291" />
+          <entry key="HTML" value="1164" />
           <entry key="SVG" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/scss/_mixin.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="293">
+                  <caret line="258" column="54" selection-start-line="258" selection-start-column="54" selection-end-line="258" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#7124#7129#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="358">
+                  <caret line="401" column="23" selection-start-line="401" selection-start-column="23" selection-end-line="401" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -99,8 +102,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/img/polygon.svg" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -110,7 +113,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-97" />
     <option name="y" value="10" />
     <option name="width" value="697" />
@@ -122,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,11 +141,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ui-components-library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -171,16 +174,22 @@
       <updated>1543151031859</updated>
       <workItem from="1543151034481" duration="7675000" />
       <workItem from="1543169295498" duration="8886000" />
+      <workItem from="1543576157404" duration="3142000" />
+      <workItem from="1543596558563" duration="3050000" />
+      <workItem from="1543647855029" duration="310000" />
+      <workItem from="1543692173644" duration="48000" />
+      <workItem from="1544373939787" duration="7722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16561000" />
+    <option name="totallyTimeSpent" value="30833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15252976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,13 +223,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/exemples/button/button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="67" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/exemples/button/button.pug" />
     <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/components/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -228,24 +231,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/scss/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="191" column="25" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
+        <state relative-caret-position="293">
+          <caret line="258" column="54" selection-start-line="258" selection-start-column="54" selection-end-line="258" selection-end-column="54" />
+          <folding>
+            <element signature="e#7124#7129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="279" column="33" lean-forward="true" selection-start-line="279" selection-start-column="33" selection-end-line="279" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../ui-components-library/src/scss/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="104" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="104" />
+        <state relative-caret-position="358">
+          <caret line="401" column="23" selection-start-line="401" selection-start-column="23" selection-end-line="401" selection-end-column="23" />
         </state>
       </provider>
     </entry>
